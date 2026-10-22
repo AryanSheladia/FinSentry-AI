@@ -1,0 +1,42 @@
+{
+  "package": "Aryan",
+  "order": 2,
+  "scope": "Input, history, persistence and backend startup",
+  "inspected_base_commit": "500c37381f40fc1e3109587cc01f489d87f63acb",
+  "review_status": "Assigned for review; this receipt is not a review sign-off",
+  "file_paths": [
+    ".dockerignore",
+    ".env.docker.example",
+    ".env.example",
+    "backend/Dockerfile",
+    "backend/api/__init__.py",
+    "backend/api/serializers.py",
+    "backend/api/sparkov.py",
+    "backend/database/__init__.py",
+    "backend/database/connection.py",
+    "backend/database/models.py",
+    "backend/database/sparkov_store.py",
+    "backend/main.py",
+    "backend/schemas/__init__.py",
+    "backend/schemas/sparkov.py",
+    "docker-compose.yml",
+    "docs/reviews/Aryan.md",
+    "reports/delete_runtime_fix.json",
+    "reports/retired_store_cleanup.json",
+    "reports/transaction_delete_verification.json",
+    "scripts/local_mysql.py",
+    "scripts/start_backend.ps1",
+    "start_backend.py",
+    "tests/test_analyst_backend.py",
+    "tests/test_transaction_delete.py"
+  ],
+  "provenance": "Codex-assisted source prepared on Aryan's device. Assigned scope does not establish independent authorship or equal effort.",
+  "integration_status": "Assisted inspection and available automated checks recorded in docs/reviews/Aryan.md; no independent human review asserted.",
+  "current_upload_order": [
+    "Pratik",
+    "Aryan",
+    "Yash",
+    "Parth"
+  ],
+  "previous_package_note": "The first package was pushed by Pratik; its receipt keeps the legacy filename 01_Parth.json for compatibility after folder-only renaming."
+}
