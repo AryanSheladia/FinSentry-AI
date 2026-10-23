@@ -1,0 +1,15 @@
+# Final interface package: assisted integration record
+
+Scope: analyst Overview, review queue/search/filters/deletion, payment/case/review UI, refresh/polling, frontend tests and final integration. Source was prepared with Codex assistance on Aryan's device. This record documents assisted inspection and executed automated checks; independent human review or independent authorship is not claimed.
+
+- Integration requested by Aryan and performed with Codex assistance on Aryan's laptop, using the authenticated `AryanSheladia` account. At Aryan's explicit request the final package is uploaded as one commit under Aryan's identity.
+- Legacy naming: this package was originally named Pratik and was later placed in the Parth folder when the upload order was swapped. `FinSentry_Pratik.zip`, `04_Pratik.json` and this filename are retained for package compatibility. They are not claims that Pratik or Parth performed this upload or an independent review.
+- Check date: 23 October 2026. Original input archive: `E:\flexi_repo\Parth\FinSentry_Pratik.zip`. All 35 manifest-listed file hashes, archive member paths and expected file sizes were verified before integration-record updates.
+- Backend checks in the final assembled checkout: `E:\FinSentry\.venv\Scripts\python.exe -m pytest tests -q`: **25 passed, 6 skipped**, with an upstream Starlette/AnyIO deprecation warning. Optional MySQL checks were not enabled.
+- Frontend checks: `npm --prefix frontend test`: **8 passed**; `npm --prefix frontend run build`: **passed**. The existing local dependency cache was reused only after both `package.json` and `package-lock.json` were verified byte-for-byte identical. A fresh dependency installation is not claimed.
+- Docker build attempt could not connect because the local Docker engine was stopped. No new container build or deployment is claimed for this upload. The independently deployed project remains in the separate deployment repository.
+- Checks cover readable labels, attention-queue policy, the distinction between automated no-trigger and analyst clearance, case evidence, explicit review controls, deletion protection and old-backend deletion errors. No new browser visual test is claimed.
+- Integration base: Yash's published commit `8aab8e4e0017254f354caa5500e4f4619e6ba22b`. Existing Pratik, Aryan and Yash files/commits are preserved. No implementation file from the ZIP was changed; only execution/contribution/handoff records were updated.
+- The full source package sequence is now assembled. Raw datasets, model binaries, databases, credentials, installed dependencies and generated frontend builds remain excluded from Git.
+
+Suggested checks: run `npm --prefix frontend ci`, `npm --prefix frontend test` and `npm --prefix frontend run build`; check keyboard navigation and narrow-screen queue layout; verify cancellation before a delete leaves the case intact; demonstrate the three presets and separate analyst decisions. Run complete backend tests after local data/model setup. Use only disposable test records for any destructive check; record what you actually tested.
