@@ -1,0 +1,15 @@
+# Yash: investigation and evidence review record
+
+Assigned scope: five coordinating responsibilities, evidence join, conditional follow-up, behavior findings, fraud-intelligence decisions and Groq explanation validation. Source was prepared with Codex assistance on Aryan's device. This record documents assisted inspection and executed automated checks; it does not claim an independent human review or independent authorship of every line.
+
+- Integration requested by Aryan for Yash's assigned package. Package inspection, verification and upload preparation performed by Codex on Aryan's laptop.
+- Integrating account: `Yash-15-02`, confirmed through GitHub's authenticated user API after device sign-in. GitHub confirms push access to `AryanSheladia/FinSentry-AI`. The supplied commit email is `yp15royal@gmail.com`; access to the account's private email list was unavailable, so no separate API verification of that email is claimed.
+- Check date: 23 October 2026. Commits use actual creation timestamps, with no backdating, fabricated signatures or co-author trailers.
+- Files inspected: all 22 manifest-listed package paths. Original package SHA-256 hashes and Python syntax were checked before editing this record and its handoff receipt.
+- Executed in the upload checkout: `E:\FinSentry\.venv\Scripts\python.exe -m pytest tests -q`: **25 passed, 6 skipped**, with an upstream Starlette/AnyIO deprecation warning. The six optional MySQL checks were not enabled; no fresh MySQL test pass is claimed.
+- Test setup: copied the existing matched model and read-only historical source database into ignored local paths. Existing tracked model metadata matches exactly. No private `.env`, raw CSVs, live MySQL files or credentials were added.
+- Verified by automated checks: causal batch/online features, time/location evidence, circular timing windows, evidence-dependent action changes, model/behavior parallel join, one bounded follow-up, rejection of contradictory Groq output, unavailable-evidence escalation, and persistence/deletion through the test database adapter.
+- Integration base: Aryan's published commit `95f64fa05962fe908b81fbe220be802b62096f52`. Existing teammate paths and history are preserved. The local source package's implementation files were not changed for this upload.
+- Remaining integration: Parth's final frontend package follows this upload. Current sequence is **Pratik → Aryan → Yash → Parth**; the first receipt retains its legacy filename `01_Parth.json` after the folder-only swap. The deployment repository is separate and is not modified by this handoff.
+
+Suggested checks: trace supervisor to risk/behavior join to intelligence and decision; explain why customer/merchant links are different; inspect uncertain-evidence escalation and bounded conflict follow-up; run `pytest tests/test_sparkov_workflow.py tests/test_sparkov_time_location.py -q` when local artifacts are prepared. Explain the three demo outcomes without claiming model risk equals final action. Do not invent a fraud label for the modified timing/location scenario.
